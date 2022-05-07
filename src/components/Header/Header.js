@@ -1,48 +1,55 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { SiCodersrank } from 'react-icons/si';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import {
+  Container,
+  Div1,
+  Div2,
+  Div3,
+  NavLink,
+  SocialIcons,
+} from './HeaderStyles';
 
-const Header = () =>  (
+const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-          <DiCssdeck size="3rem" /> <span>Portfolio</span>
+      <Link href='/'>
+        <a
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            color: 'white',
+          }}
+        >
+          <span> &lt; /&gt; RAHUL KHERAJANI</span>
         </a>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
+        <Link href='#tech'>
+          <NavLink>Skills</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+        <Link href='#experience'>
+          <NavLink>Experience</NavLink>
         </Link>
-      </li>        
+      </li>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link href='#education'>
+          <NavLink>Education</NavLink>
         </Link>
-      </li>        
+      </li>
+      <li>
+        <Link href='#projects'>
+          <NavLink>Projects</NavLink>
+        </Link>
+      </li>
     </Div2>
-      <Div3>
-        <SocialIcons href="https://google.com">
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://google.com">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://google.com">
-          <AiFillInstagram size="3rem"/>
-        </SocialIcons>
-      </Div3>
-    </Container>
+  </Container>
 );
 
 export default Header;

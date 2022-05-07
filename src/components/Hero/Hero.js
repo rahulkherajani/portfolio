@@ -1,21 +1,50 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from '../../styles/GlobalComponents';
 import { LeftSection } from './HeroStyles';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { SiGmail } from 'react-icons/si';
+
+import {
+  CompanyContainer,
+  LinkColumn,
+  LinkItem,
+  LinkList,
+  LinkTitle,
+  Slogan,
+  SocialContainer,
+  SocialIconsContainer,
+  SocialIcons,
+} from './HeroStyles';
 
 const Hero = (props) => (
   <>
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          My Personal Portfolio
+          Hi! I am Rahul
+          <span role='img' aria-label='wave' style={{ marginLeft: '0.5em' }}>
+            👋
+          </span>
         </SectionTitle>
-        <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
-        </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <SectionText>A Full Stack Web Developer!</SectionText>
+        <SocialIconsContainer>
+          <SocialContainer>
+            <SocialIcons href='https://google.com'>
+              <SiGmail size='3rem' />
+            </SocialIcons>
+            <SocialIcons href='https://google.com'>
+              <AiFillLinkedin size='3rem' />
+            </SocialIcons>
+            <SocialIcons href='https://google.com'>
+              <AiFillGithub size='3rem' />
+            </SocialIcons>
+          </SocialContainer>
+        </SocialIconsContainer>
       </LeftSection>
     </Section>
   </>
