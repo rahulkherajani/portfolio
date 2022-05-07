@@ -20,9 +20,9 @@ import VerticalLineContent from '../VerticalLine/VerticalLineContent';
 
 const Timeline = () => {
   return (
-    <Section id='about'>
+    <Section id='experience'>
+      <SectionDivider divider />
       <SectionTitle>Experience</SectionTitle>
-      <SectionDivider />
       <List>
         <ListItem>
           <ListContainer>
@@ -40,7 +40,8 @@ const Timeline = () => {
                 {' '}
                 Senior Systems Engineer
               </ListParagraph>
-              <ListParagraph> Full-time (Jan 2021 - July 2021)</ListParagraph>
+              <ListParagraph> Full-time (Jan 2021 - Jul 2021)</ListParagraph>
+              <ListParagraph> Hyderabad, India</ListParagraph>
               <List>
                 <ListItem>
                   <ListParagraph>
@@ -66,6 +67,7 @@ const Timeline = () => {
                 Systems Engineer
               </ListParagraph>
               <ListParagraph> Full-time (Nov 2018 - Dec 2020)</ListParagraph>
+              <ListParagraph> Hyderabad, India</ListParagraph>
               <List>
                 <ListItem>
                   <ListParagraph>
@@ -89,6 +91,8 @@ const Timeline = () => {
                 {' '}
                 Systems Engineer Trainee
               </ListParagraph>
+              <ListParagraph> Full-time (Jun 2018 - Oct 2018)</ListParagraph>
+              <ListParagraph> Mysuru, India</ListParagraph>
               <List>
                 <ListItem>
                   <ListParagraph>

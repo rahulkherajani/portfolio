@@ -165,7 +165,7 @@ export const SocialIcons = styled.a`
   transition: 0.3s ease;
   color: white;
   border-radius: 50px;
-  margin-right: 1em;
+  margin: 1em;
   padding: 10px;
   &:hover {
     background-color: #212d45;
