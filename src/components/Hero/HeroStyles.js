@@ -19,7 +19,7 @@ export const LeftSection = styled.div`
 `;
 
 export const LinkItem = styled.a`
-  font-size: 18px;
+  font-size: 24px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.75);
   margin-bottom: 16px;
@@ -45,6 +45,16 @@ export const LinkItem = styled.a`
     display: flex;
     align-items: center;
   }
+`;
+
+export const ExternalLinks = styled.a`
+  color: #000000;
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 15px;
+  transition: 0.5s;
+  background: #ffffff;
 `;
 
 export const SocialIconsContainer = styled.div`

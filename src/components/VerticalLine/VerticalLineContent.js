@@ -49,11 +49,17 @@ const ContentPoint = styled.span`
 
 const ContentChildren = styled.div`
   position: relative;
-  padding: 0em;
+  padding: 0em 2em;
   top: 0;
   width: 100%;
 
   @media screen and (${device.tablets}) {
+    padding: 0em 2em;
+    left: ${(props) => (props.position === 'left' ? '0%' : '0%')};
+    text-align: ${(props) => (props.position === 'left' ? 'right' : 'left')};
+  }
+
+  @media screen and (${device.smalldevices}) {
     padding: 0em 2em;
     left: ${(props) => (props.position === 'left' ? '0%' : '0%')};
     text-align: ${(props) => (props.position === 'left' ? 'right' : 'left')};

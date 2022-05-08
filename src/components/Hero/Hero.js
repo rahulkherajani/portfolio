@@ -15,6 +15,7 @@ import {
   LinkItem,
   LinkList,
   LinkTitle,
+  ExternalLinks,
   Slogan,
   SocialContainer,
   SocialIconsContainer,
@@ -45,6 +46,9 @@ const Hero = (props) => (
             <SocialIcons href='https://github.com/RahulKherajani'>
               <AiFillGithub size='3rem' />
             </SocialIcons>
+            <ExternalLinks target='_blank' href='resume.pdf'>
+              Resume
+            </ExternalLinks>
           </SocialContainer>
         </SocialIconsContainer>
       </LeftSection>
