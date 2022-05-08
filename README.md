@@ -1,12 +1,18 @@
-## Personal Portfolio
+# Personal Portfolio
 
-### [Live Site](https://jsmasterypro.com)
+## Authors
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+- [Rahul Kherajani] <rahulkherajani20@gmail.com>
 
-This is a code repository for the corresponding video tutorial. Your portfolio is your resume and your business card.
+## Live Application URL
 
-In this video, we will create a full Personal Development Portfolio. We're going to use React and Next.js.
+- https://rahulkherajani.netlify.app/
 
-Setup:
-- run ```npm i && npm start```
+## Built With
+
+- Frontend: [React](https://reactjs.org/)
+- Next.js
+
+## References
+
+- https://github.com/adrianhajdin/portfolio_website
