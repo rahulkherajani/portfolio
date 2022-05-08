@@ -19,6 +19,7 @@ import {
   SocialContainer,
   SocialIconsContainer,
   SocialIcons,
+  Img,
 } from './HeroStyles';
 
 const Hero = (props) => (
@@ -26,21 +27,22 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hi! I am Rahul
+          Hi! I'm Rahul
           <span role='img' aria-label='wave' style={{ marginLeft: '0.5em' }}>
             👋
           </span>
         </SectionTitle>
         <SectionText>A Full Stack Web Developer!</SectionText>
         <SocialIconsContainer>
+          <Img src='/images/photo.jpeg' />
           <SocialContainer>
-            <SocialIcons href='https://google.com'>
+            <SocialIcons href='mailto:rahulkherajani20@gmail.com'>
               <SiGmail size='3rem' />
             </SocialIcons>
-            <SocialIcons href='https://google.com'>
+            <SocialIcons href='https://www.linkedin.com/in/rahulkherajani/'>
               <AiFillLinkedin size='3rem' />
             </SocialIcons>
-            <SocialIcons href='https://google.com'>
+            <SocialIcons href='https://github.com/RahulKherajani'>
               <AiFillGithub size='3rem' />
             </SocialIcons>
           </SocialContainer>

@@ -1,7 +1,5 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { SiCodersrank } from 'react-icons/si';
 
 import {
   Container,
@@ -23,7 +21,7 @@ const Header = () => (
             color: 'white',
           }}
         >
-          <span> &lt; /&gt; RAHUL KHERAJANI</span>
+          <span> &lt; RAHUL KHERAJANI /&gt;</span>
         </a>
       </Link>
     </Div1>

@@ -165,11 +165,20 @@ export const SocialIcons = styled.a`
   transition: 0.3s ease;
   color: white;
   border-radius: 50px;
-  margin: 1em;
+  margin: 0.5em;
   padding: 10px;
   &:hover {
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
   }
+`;
+
+export const Img = styled.img`
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  margin: 0 auto;
 `;

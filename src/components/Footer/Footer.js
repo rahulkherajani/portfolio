@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { SiGmail } from 'react-icons/si';
 
-import { SocialIcons } from '../Header/HeaderStyles';
 import {
   CompanyContainer,
   FooterWrapper,
@@ -11,6 +11,7 @@ import {
   LinkList,
   LinkTitle,
   Slogan,
+  SocialIcons,
   SocialContainer,
   SocialIconsContainer,
 } from './FooterStyles';
@@ -24,21 +25,23 @@ const Footer = () => {
             style={{
               display: 'flex',
               alignItems: 'center',
+              justifyContent: 'center',
+              margin: '2em',
               color: 'white',
             }}
           >
-            <span> &lt; /&gt; RAHUL KHERAJANI</span>
+            <span> &lt; RAHUL KHERAJANI /&gt;</span>
           </a>
         </Link>
         <SocialContainer>
-          <SocialIcons href='https://google.com'>
-            <AiFillGithub size='3rem' />
+          <SocialIcons href='mailto:rahulkherajani20@gmail.com'>
+            <SiGmail size='3rem' />
           </SocialIcons>
-          <SocialIcons href='https://google.com'>
+          <SocialIcons href='https://www.linkedin.com/in/rahulkherajani/'>
             <AiFillLinkedin size='3rem' />
           </SocialIcons>
-          <SocialIcons href='https://google.com'>
-            <AiFillInstagram size='3rem' />
+          <SocialIcons href='https://github.com/RahulKherajani'>
+            <AiFillGithub size='3rem' />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

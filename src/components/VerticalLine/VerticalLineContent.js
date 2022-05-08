@@ -34,9 +34,14 @@ const ContentPoint = styled.span`
   border-radius: 50%;
   background-color: #ffffff;
   display: block;
-  margin-left: -18px;
+  margin-left: -8px;
 
   @media screen and (${device.tablets}) {
+    left: 0%;
+    margin-left: -18px;
+  }
+
+  @media screen and (${device.smalldevices}) {
     left: 0%;
     margin-left: -18px;
   }

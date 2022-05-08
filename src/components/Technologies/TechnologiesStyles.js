@@ -8,18 +8,18 @@ export const List = styled.ul`
   margin: 3rem 0;
 
   @media ${(props) => props.theme.breakpoints.lg} {
-    margin: 64px 0;
+    margin: 64px auto;
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
-    margin: 64px 0;
+    margin: 64px auto;
     gap: 24px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
-    margin: 32px 0;
+    margin: 32px auto;
   }
 `;
 

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width: 100%;
-  height: 100%;
+  height: 220px;
   object-fit: cover;
   overflow: hidden;
 `;
@@ -87,12 +87,8 @@ export const ExternalLinks = styled.a`
   color: #d4c0c0;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
-  background: #6b3030;
   border-radius: 15px;
   transition: 0.5s;
-  &:hover {
-    background: #801414;
-  }
 `;
 
 export const TagList = styled.ul`
@@ -105,14 +101,26 @@ export const TagList = styled.ul`
 `;
 
 export const Tag = styled.li`
-  color: #d8bfbf;
+  color: #000000;
   font-size: 1.5 rem;
   padding: 1rem 1.5rem;
   margin: 1rem 1.5rem;
-  background: #6b3030;
+  background: #e4e6e7;
   border-radius: 15px;
   transition: 0.5s;
+`;
+
+// Social Icons
+
+export const SocialIcons = styled.a`
+  transition: 0.3s ease;
+  color: white;
+  border-radius: 50px;
+  margin: 1em;
+  padding: 10px;
   &:hover {
-    background: #801414;
+    background-color: #212d45;
+    transform: scale(1.2);
+    cursor: pointer;
   }
 `;

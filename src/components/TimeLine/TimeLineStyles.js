@@ -5,18 +5,15 @@ export const List = styled.ul`
   margin: 3rem 0;
 
   @media ${(props) => props.theme.breakpoints.lg} {
-    margin: 64px 0;
+    margin: 64px auto;
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
-    margin: 64px 0;
-    gap: 24px;
+    margin: 64px auto;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    display: flex;
-    flex-direction: column;
-    margin: 32px 0;
+    margin: 32px auto;
   }
 `;
 
@@ -26,7 +23,7 @@ export const ListContainer = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
-    margin-left: 18px;
+    flex-direction: column;
   }
 `;
 
@@ -79,7 +76,7 @@ export const ListItem = styled.li`
   @media ${(props) => props.theme.breakpoints.sm} {
     margin-bottom: 14px;
     max-width: 320px;
-    flex-direction: row;
+    flex-direction: column;
   }
 `;
 

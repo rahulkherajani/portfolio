@@ -12,12 +12,17 @@ import {
   TitleContent,
   UtilityList,
   Img,
+  SocialIcons,
 } from './ProjectsStyles';
 import {
   Section,
   SectionDivider,
   SectionTitle,
 } from '../../styles/GlobalComponents';
+
+import { AiFillGithub } from 'react-icons/ai';
+import { FaExternalLinkSquareAlt } from 'react-icons/fa';
+
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
@@ -30,12 +35,11 @@ const Projects = () => (
           <BlogCard key={i}>
             <Img src={p.image} />
             <TitleContent>
-              <HeaderThree title>{p.title}</HeaderThree>
+              <HeaderThree>{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo className='card-info'>{p.description}</CardInfo>
             <div>
-              <TitleContent>Tags</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
@@ -43,8 +47,14 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Code</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
+              <SocialIcons href={p.source}>
+                <AiFillGithub size='3rem' />
+              </SocialIcons>
+              {p.visit && (
+                <SocialIcons href={p.visit}>
+                  <FaExternalLinkSquareAlt size='3rem' />
+                </SocialIcons>
+              )}
             </UtilityList>
           </BlogCard>
         );

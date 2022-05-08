@@ -26,6 +26,12 @@ const Wrapper = styled.section`
       left: 0%;
     }
   }
+
+  @media screen and (${device.smalldevices}) {
+    ::before {
+      left: 0%;
+    }
+  }
 `;
 
 function VerticalLineWrapper({ className, children }) {

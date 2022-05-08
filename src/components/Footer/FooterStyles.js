@@ -45,7 +45,7 @@ export const LinkItem = styled.a`
 export const SocialIconsContainer = styled.div`
   max-width: 1040px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 
   @media ${(props) => props.theme.breakpoints.md} {
     display: flex;
@@ -151,5 +151,20 @@ export const LinkTitle = styled.h4`
     font-size: 10px;
     line-height: 12px;
     margin-bottom: 8px;
+  }
+`;
+
+// Social Icons
+
+export const SocialIcons = styled.a`
+  transition: 0.3s ease;
+  color: white;
+  margin: 0.5rem;
+  border-radius: 50px;
+  padding: 8px;
+  &:hover {
+    background-color: #212d45;
+    transform: scale(1.2);
+    cursor: pointer;
   }
 `;
