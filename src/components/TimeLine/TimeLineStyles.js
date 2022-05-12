@@ -70,7 +70,7 @@ export const ListItem = styled.li`
   flex-direction: column;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    max-width: 200px;
+    max-width: 480px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {

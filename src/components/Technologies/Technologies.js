@@ -34,20 +34,26 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <ListContainer>
-          <ListTitle>UI/UX - Web</ListTitle>
+          <ListTitle>Web Technologies</ListTitle>
           <ListParagraph>
-            HTML5, CSS3, React Js, Express Js, Node Js, Material UI, Bootstrap,
-            Figma
+            HTML5, CSS3, React, Express.js, Node.js, Material UI, Bootstrap,
+            Figma, MERN Stack
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <ListContainer>
-          <ListTitle>Cloud</ListTitle>
+          <ListTitle>Cloud Technologies</ListTitle>
           <ListParagraph>
             AWS: EC2, VPC, Elastic Beanstalk, Lambda, S3, DynamoDB, API Gateway,
             Cognito, SNS, Amplify, Secrets Manager.
           </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>Mobile Technologies</ListTitle>
+          <ListParagraph>Android Studio</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
