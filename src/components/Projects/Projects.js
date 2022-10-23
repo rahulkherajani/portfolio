@@ -38,23 +38,12 @@ const Projects = () => (
               <HeaderThree>{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
-            <CardInfo className='card-info'>{p.description}</CardInfo>
-            <div>
-              <TagList>
-                {p.tags.map((t, i) => {
-                  return <Tag key={i}>{t}</Tag>;
-                })}
-              </TagList>
-            </div>
+            <CardInfo className='card-info'>{p.description}</CardInfo> <br />
+            <CardInfo className='card-info'>{p.tags}</CardInfo>
             <UtilityList>
               <SocialIcons href={p.source}>
                 <AiFillGithub size='3rem' />
               </SocialIcons>
-              {p.visit && (
-                <SocialIcons href={p.visit}>
-                  <FaExternalLinkSquareAlt size='3rem' />
-                </SocialIcons>
-              )}
             </UtilityList>
           </BlogCard>
         );

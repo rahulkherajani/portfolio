@@ -37,7 +37,8 @@ const Acomplishments = () => (
             </ListParagraph>
             <ListParagraph> Halifax, Canada</ListParagraph>
             <ListParagraph> Master of Applied Computer Science</ListParagraph>
-            <ListParagraph> Sep 2021 - Dec 2022 (Current)</ListParagraph>
+            <ListParagraph> (Sep 2021 - Dec 2022) (Present)</ListParagraph>
+            <ListParagraph> (CGPA: 4.19 / 4.33)</ListParagraph>
             <List>
               <ListItem>
                 <ListParagraph>
@@ -59,11 +60,9 @@ const Acomplishments = () => (
               Shri G.S. Institute of Technology & Science (R.G.P.V.)
             </ListParagraph>
             <ListParagraph> Indore, India</ListParagraph>
-            <ListParagraph>
-              {' '}
-              Bachelor of Engineering in Electronics
-            </ListParagraph>
-            <ListParagraph> Jul 2014 - Jun 2018 </ListParagraph>
+            <ListParagraph> Bachelor of Engineering</ListParagraph>
+            <ListParagraph> (Jul 2014 - Jun 2018) </ListParagraph>
+            <ListParagraph> (CGPA: 8.06 / 10)</ListParagraph>
             <List>
               <ListItem>
                 <ListParagraph>
@@ -73,6 +72,7 @@ const Acomplishments = () => (
               </ListItem>
             </List>
           </VerticalLineContent>
+          <VerticalLineContent position='right' />
         </VerticalLineWrapper>
       </ListItem>
     </List>

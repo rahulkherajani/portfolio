@@ -21,14 +21,14 @@ const Technologies = () => (
       <ListItem>
         <ListContainer>
           <ListTitle>Programming Languages</ListTitle>
-          <ListParagraph>JavaScript, Python, Java, SQL, PLSQL</ListParagraph>
+          <ListParagraph>Typescript, JavaScript, Python, Java</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <ListContainer>
           <ListTitle>Databases</ListTitle>
           <ListParagraph>
-            MySQL, Oracle DB, MongoDB, Firebase, Neo4J
+            SQL, PLSQL, MySQL, OracleDB, MongoDB, Firebase, DynamoDB, Firestore
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -36,8 +36,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Web Technologies</ListTitle>
           <ListParagraph>
-            HTML5, CSS3, React, Express.js, Node.js, Material UI, Bootstrap,
-            Figma, MERN Stack
+            HTML5, CSS3, DOM, React, Redux, Express.js, Node.js, Material UI,
+            Bootstrap, Figma, Jest, Cypress
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -45,21 +45,23 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Cloud Technologies</ListTitle>
           <ListParagraph>
-            AWS: EC2, VPC, Elastic Beanstalk, Lambda, S3, DynamoDB, API Gateway,
-            Cognito, SNS, Amplify, Secrets Manager.
+            AWS: EC2, Lambda, API Gateway, VPC, SQS, SNS, Cloudformation; <br />
+            GCP: VM, Cloudfunctions, Pub/Sub, API Gateway
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
+      {/* <ListItem>
         <ListContainer>
           <ListTitle>Mobile Technologies</ListTitle>
           <ListParagraph>Android Studio</ListParagraph>
         </ListContainer>
-      </ListItem>
+      </ListItem> */}
       <ListItem>
         <ListContainer>
           <ListTitle>Miscellaneous</ListTitle>
-          <ListParagraph>JIRA, Scrum, Docker, Postman, Git</ListParagraph>
+          <ListParagraph>
+            JIRA, Docker, Kubernetes, Postman, Git, Github, Gitlab, Confluence
+          </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>

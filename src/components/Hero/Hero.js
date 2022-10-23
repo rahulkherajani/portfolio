@@ -35,7 +35,7 @@ const Hero = (props) => (
         </SectionTitle>
         <SectionText>A Full Stack Web Developer!</SectionText>
         <SocialIconsContainer>
-          <Img src='/images/photo.jpeg' />
+          <Img src='/images/photo.png' />
           <SocialContainer>
             <SocialIcons href='mailto:rahulkherajani20@gmail.com'>
               <SiGmail size='3rem' />
